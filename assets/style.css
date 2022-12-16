@@ -1,0 +1,87 @@
+html{
+    background-color: whitesmoke;
+}
+
+img, button{
+    object-fit: contain;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+
+h1, h2, p, button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 162, 151);
+    font-family: 'Courier Newnn', Courier, monospace;
+    align-items: center;
+}
+
+p, button{ 
+    font-size: larger;
+    font-weight: bolder;
+}
+
+button{
+    border-width: 4px;
+    padding: 5px 15px;
+    display: flex;
+    text-align: center;
+    border-style: groove;
+    border-color: palegreen;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+    color: palegreen;
+    background-color: palevioletred;
+
+}
+#pattern{
+ min-height: 100%;
+ background-image: url(pattern.jpg);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ background-position: center;
+ position: relative;
+ height: 550px;
+ width: 100%;
+ opacity: 0.65;
+ background-attachment: fixed;
+}
+#frase{
+    width: 740px;
+    height: 76px;
+    object-fit: contain;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    position: relative;
+    vertical-align: middle;
+    color: rgb(248, 83, 138);
+    top: 50%;
+    text-shadow: 0.1em 0.1em 0.05em rgb(130, 250, 130);
+    font-weight: 700;
+    font-size: 32px;
+    border: solid 2px palegreen ;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: palegreen;
+    color: palevioletred;
+    padding: 60px 0;
+    text-align: center;
+    align-items: center;
+  }
+  #logos-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
